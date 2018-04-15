@@ -26,6 +26,7 @@ public class ActionsClass {
 			System.setProperty("webdriver.chrome.driver", "D:\\R\\BrowserDriver\\chromedriver.exe");
 			driver= new ChromeDriver();
 		}
+		
 		driver.get("http://www.seleniumframework.com/Practiceform/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
