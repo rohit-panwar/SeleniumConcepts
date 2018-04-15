@@ -5,17 +5,27 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class ActionsClass {
 
+	public String browser= "chrome";
+	WebDriver driver;
+	
 	@Test
 	public void test() throws InterruptedException {
-		System.setProperty("webdriver.gecko.driver", "D:\\R\\BrowserDriver\\geckodriver.exe");
-		WebDriver driver= new FirefoxDriver();
 		
+		if(browser=="firefox") {
+		System.setProperty("webdriver.gecko.driver", "D:\\R\\BrowserDriver\\geckodriver.exe");
+		driver= new FirefoxDriver();
+		}
+		else {
+			System.setProperty("webdriver.chrome.driver", "D:\\R\\BrowserDriver\\chromedriver.exe");
+			driver= new ChromeDriver();
+		}
 		driver.get("http://www.seleniumframework.com/Practiceform/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
