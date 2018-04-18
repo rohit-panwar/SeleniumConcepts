@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18091" started-at="2018-04-15T12:07:23Z" finished-at="2018-04-15T12:07:41Z">
+  <suite name="Default suite" duration-ms="23849" started-at="2018-04-18T15:20:28Z" finished-at="2018-04-18T15:20:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18091" started-at="2018-04-15T12:07:23Z" finished-at="2018-04-15T12:07:41Z">
-      <class name="locatorTechnique.FindElements">
-        <test-method status="PASS" signature="xpath()[pri:0, instance:locatorTechnique.FindElements@475530b9]" name="xpath" duration-ms="18044" started-at="2018-04-15T12:07:23Z" finished-at="2018-04-15T12:07:41Z">
+    <test name="Default test" duration-ms="23849" started-at="2018-04-18T15:20:28Z" finished-at="2018-04-18T15:20:52Z">
+      <class name="basicConcepts.ExplicitWait">
+        <test-method status="PASS" signature="testExplicit()[pri:0, instance:basicConcepts.ExplicitWait@224edc67]" name="testExplicit" duration-ms="23787" started-at="2018-04-18T15:20:28Z" finished-at="2018-04-18T15:20:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- xpath -->
-      </class> <!-- locatorTechnique.FindElements -->
+        </test-method> <!-- testExplicit -->
+      </class> <!-- basicConcepts.ExplicitWait -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
