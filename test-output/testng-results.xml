@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23849" started-at="2018-04-18T15:20:28Z" finished-at="2018-04-18T15:20:52Z">
+  <suite name="Default suite" duration-ms="36366" started-at="2018-04-28T11:29:49Z" finished-at="2018-04-28T11:30:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23849" started-at="2018-04-18T15:20:28Z" finished-at="2018-04-18T15:20:52Z">
-      <class name="basicConcepts.ExplicitWait">
-        <test-method status="PASS" signature="testExplicit()[pri:0, instance:basicConcepts.ExplicitWait@224edc67]" name="testExplicit" duration-ms="23787" started-at="2018-04-18T15:20:28Z" finished-at="2018-04-18T15:20:52Z">
+    <test name="Default test" duration-ms="36366" started-at="2018-04-28T11:29:49Z" finished-at="2018-04-28T11:30:25Z">
+      <class name="javaScriptExecuter.JavaScriptExecutor">
+        <test-method status="PASS" signature="HighlightObject()[pri:0, instance:javaScriptExecuter.JavaScriptExecutor@4abdb505]" name="HighlightObject" duration-ms="36335" started-at="2018-04-28T11:29:49Z" finished-at="2018-04-28T11:30:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExplicit -->
-      </class> <!-- basicConcepts.ExplicitWait -->
+        </test-method> <!-- HighlightObject -->
+      </class> <!-- javaScriptExecuter.JavaScriptExecutor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

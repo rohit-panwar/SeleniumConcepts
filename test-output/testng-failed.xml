@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="locatorTechnique.DynamicXpath">
+      <class name="javaScriptExecuter.JavaScriptExecutor">
         <methods>
-          <include name="xpath"/>
+          <include name="HighlightObject"/>
         </methods>
-      </class> <!-- locatorTechnique.DynamicXpath -->
+      </class> <!-- javaScriptExecuter.JavaScriptExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
