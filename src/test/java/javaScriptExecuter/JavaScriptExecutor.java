@@ -49,7 +49,7 @@ public class JavaScriptExecutor {
 		
 		WebElement blogLink=driver.findElement(By.linkText("ABSoft's Blog"));
 		//WebElement blogLink=driver.findElement(By.xpath("//a[contains(text(),'ABSoft's Blog']"));
-		scrollIntoView(driver, blogLink);
+		scrollIntoView(driver, blogLink); // To scroll to any element
 	}
 	
 	public static void flash(WebElement element, WebDriver driver) {
